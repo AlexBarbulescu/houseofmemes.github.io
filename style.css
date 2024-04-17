@@ -20,7 +20,12 @@
 
  @font-face {
   font-family: 'GameofThrones';
-  src: url('font/Game of Thrones.ttf') format('ttf');
+  src: url('fonts/Game of Thrones.ttf') format('ttf'),
+  url('fonts/GameofThrones.woff2') format('woff2'),
+  url('fonts/GameofThrones.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+font-display: swap;
 
 }
 
