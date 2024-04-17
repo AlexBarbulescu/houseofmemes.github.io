@@ -27271,7 +27271,7 @@ td.actions {
   -webkit-tap-highlight-color: transparent;
   position: relative;
   z-index: 1;
-  width: 100%;
+  width: 75%;
   touch-action: manipulation;
 }
 .owl-carousel .animated {
