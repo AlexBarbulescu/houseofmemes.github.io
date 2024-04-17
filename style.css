@@ -16,6 +16,15 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+ @font-face {
+  font-family: 'GameofThrones';
+  src: url('font/Game of Thrones.ttf') format('ttf');
+
+}
+
+
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -595,7 +604,7 @@ progress {
 }
 
 .font-color-white{
-  color: white;
+  color: white !important;
 }
 .font-color-white:hover{
   color: white;
@@ -606,6 +615,10 @@ progress {
 }
 .font-color-red:hover{
   color: #ff3c00;
+}
+
+.font-got{
+  font-family: GameofThrones;
 }
 
 .phone {
