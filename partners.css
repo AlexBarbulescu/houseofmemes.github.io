@@ -1,0 +1,113 @@
+/* Custom Styles */
+.partners {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1490px;
+  padding: 25px 5px 5px 5px;
+}
+
+.partners .partner {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  width: calc(25% - 20px);
+}
+
+.partners .partner .link {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  /* opacity: 0.4; */
+}
+
+.partners .partner .link:hover {
+  opacity: 1;
+  transition: 0s ease-in-out;
+}
+
+.partners .partner .single {
+  background-size: auto 80px;
+  background-position: center top;
+  transition: background-position 0s ease-in-out;
+}
+
+.partners .partner .single:hover {
+  background-position: center -40px;
+}
+
+/* Define individual partner classes */
+.partners .partner .pinksale {
+  background-image: url('img/partners/pinksale.png');
+}
+
+.partners .partner .dextools {
+  background-image: url('img/partners/dextools.png');
+}
+
+
+  
+@media (max-width: 1600px) {
+  .partners {
+    max-width: 1140px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .partners {
+    max-width: 960px;
+  }
+
+  .partners .partner .link {
+    height: 30px;
+  }
+
+  .partners .partner .single {
+    background-size: auto 60px;
+  }
+
+  .partners .partner .single:hover {
+    background-position: center -30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .partners {
+    max-width: 720px;
+  }
+
+  .partners .partner {
+    width: calc(50% - 20px);
+  }
+
+  .partners .partner .link {
+    height: 40px;
+  }
+  .partners .partner .single {
+    background-size: auto 80px;
+  }
+  .partners .partner .single:hover {
+    background-position: center -40px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .partners {
+    max-width: 575px;
+  }
+
+  .partners .partner .link {
+    height: 30px;
+  }
+
+  .partners .partner .single {
+    background-size: auto 60px;
+  }
+
+  .partners .partner .single:hover {
+    background-position: center -30px;
+  }
+}
