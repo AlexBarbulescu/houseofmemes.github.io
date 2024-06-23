@@ -42,9 +42,14 @@
 .partners .partner .pinksale {
   background-image: url('img/partners/pinksale.png');
 }
-
+.partners .partner .dexscreener {
+  background-image: url('img/partners/dexscreener.png');
+}
 .partners .partner .dextools {
   background-image: url('img/partners/dextools.png');
+}
+.partners .partner .safeguard {
+  background-image: url('img/partners/safeguard.png');
 }
 
 
